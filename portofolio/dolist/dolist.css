@@ -1,0 +1,106 @@
+.first-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(130, 130, 243);
+    color: white;
+    padding-bottom: 10px;
+    width: 700px;
+    margin-right:0px;
+
+    
+}
+.title{
+    font-family: Crafty Girls,arial,roboto;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+.checkbox{
+    margin-left: -40px;
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+}
+.second-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.inputline{
+    
+   
+    width: 400px;
+    margin-top: 20px;
+    margin-left:-180px;
+    box-sizing: border-box;
+    border:none;
+    border-bottom: 2px solid grey;
+    background-color: whitesmoke;
+
+    
+    
+}
+.due{
+    width: 100px;
+    margin-top:20px;
+    box-sizing: border-box;
+    border:none;
+    border-bottom: 2px solid grey;
+    background-color: whitesmoke;
+    
+}
+.overall-container{
+    width: 750px;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 500px;
+    padding-top: 50px;
+    padding-left:10px;
+    padding-right:10px;
+    
+    
+}
+.done{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+.task{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+.due-container{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+.section{
+    padding-top: 100px;
+    padding-left: 320px;
+    
+}
+.submit-button{
+    margin-top: 50px;
+    margin-left: 330px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right:3px;
+    padding-left:3px;
+    width:100px;
+    font-size: large;
+    background-color :rgb(145, 145, 235);;
+    color: white;
+    font-family:  arial;
+    font-weight: bold;
+    border:1px;
+    border-radius: 5px;
+}
+.submit-button:hover{
+    background-color: white;
+    color: rgb(145, 145, 235);;
+}
